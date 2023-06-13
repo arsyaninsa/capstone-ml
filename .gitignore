@@ -2,3 +2,5 @@
 /flask/model/__pycache__/
 /flask/src/__pycache__/
 /models/.ipynb_checkpoints/
+/flask/*.h5
+*.env

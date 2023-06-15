@@ -4,3 +4,4 @@
 /models/.ipynb_checkpoints/
 /flask/*.h5
 *.env
+.gcloudignore

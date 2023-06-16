@@ -54,6 +54,10 @@ To run the Flask app locally on your machine, follow these steps:
    ```bash
    flask run --port 8080
    ```
+3. Or run the main file
+   ```bash
+   python main.py
+   ```
 
    The API will be accessible at `http://localhost:8080`.
 

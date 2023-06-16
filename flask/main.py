@@ -2,8 +2,11 @@ from src.config import FLASK_ENV
 from flask import Flask, request, jsonify
 from src.predict import PlantClassifier
 
+modelPath = FLASK_ENV["MODEL_PATH"] if FLASK_ENV["MODEL_PATH"] != None else "model.h5"
+
 app = Flask(__name__)
-clf = PlantClassifier("model_Resnet1.h5")
+clf = PlantClassifier(modelPath)
+
 
 @app.route('/')
 def home():

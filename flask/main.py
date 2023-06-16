@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from src.predict import PlantClassifier
 
 app = Flask(__name__)
-clf = PlantClassifier("model3.h5")
+clf = PlantClassifier("model_Resnet1.h5")
 
 @app.route('/')
 def home():
